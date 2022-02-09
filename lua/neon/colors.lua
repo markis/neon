@@ -78,7 +78,7 @@ function colors.generate()
         colors.red = "#F92672"
         colors.yellow = "#FFE792"
         colors.orange = "#FD971F"
-        colors.green = "#A6E22E"
+        colors.green = "#44D62C"
         colors.cyan = "#66D9EF"
         colors.dark_cyan = "#2A9DB3"
         colors.blue = "#5CCAEF"
