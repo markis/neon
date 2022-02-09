@@ -65,6 +65,32 @@ function colors.generate()
         colors.diff_green = "#394634"
         colors.diff_blue = "#354157"
         colors.diff_yellow = "#4e432f"
+    elseif vim.g.neon_style == "high-contrast" then
+        colors.fg = "#F1F1F1"
+        colors.bg0 = "#000000"
+        colors.bg1 = "#000c18"
+        colors.bg2 = "#21262d"
+        colors.bg3 = "#333644"
+        colors.bg4 = "#363a49"
+
+        colors.gray = "#F8F8F0"
+        colors.gray_alt = "#4C566A"
+        colors.red = "#F92672"
+        colors.yellow = "#FFE792"
+        colors.orange = "#FD971F"
+        colors.green = "#A6E22E"
+        colors.cyan = "#66D9EF"
+        colors.dark_cyan = "#2A9DB3"
+        colors.blue = "#5CCAEF"
+        colors.violet = "#A57FFF"
+        colors.purple = "#AE81FF"
+        colors.light_blue = "#62D8FF"
+        colors.light_pink = "#F88EE8"
+        colors.disabled = "#676E95"
+        colors.diff_red = "#F82A5D"
+        colors.diff_green = "#98D800"
+        colors.diff_blue = "#458588"
+        colors.diff_yellow = "#E7DC60"
     end
 end
 
